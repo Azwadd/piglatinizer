@@ -14,9 +14,6 @@ $( document ).ready(function() {
 		}
 		var userResult = myfunction;
 		$("#result").text(userResult);
-  
-
-
 	});
 });
 
