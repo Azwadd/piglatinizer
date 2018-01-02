@@ -1,1 +1,20 @@
+body {
+    background-color: #00688B	 ;
+}
+.header {
+    background-color: #808080;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.result {
+    background-color: #808080;
+        text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.space {
+    padding-top: 25px;
+}
 

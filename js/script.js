@@ -6,10 +6,18 @@
 
 // Document Ready Function. All of your jQuery should go in here. 
 $( document ).ready(function() {
+	$("#click").click(function(e){
+		e.preventDefault();
+		var user = $("#userValue").val();
+		function myfunction(word){
+			return user + "ay";
+		}
+		var userResult = myfunction;
+		$("#result").text(userResult);
   
 
 
-
+	});
 });
 
 
