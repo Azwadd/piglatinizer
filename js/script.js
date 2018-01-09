@@ -8,12 +8,16 @@
 $( document ).ready(function() {
 	$("#click").click(function(e){
 		e.preventDefault();
-		var user = $("#userValue").val();
-		function myfunction(word){
-			return user + "ay";
+//		var user = $("#userValue").val();
+//		function myfunction(word){
+//			return user + "ay";
+//		}
+//		$("#result").text(outPut);
+		function sentenceTowords(user) {
+			var input = user.split(' ');
+			return input;
 		}
-		var userResult = myfunction;
-		$("#result").text(userResult);
+		console.log('result', sentenceTowords("hello world"));
 	});
 });
 
